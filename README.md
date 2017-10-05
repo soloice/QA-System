@@ -10,3 +10,7 @@ For the `kbqa` task, we used baseline program to identify all mentions in the co
 It turns out that our algorithm's performance on the `dbqa` task is poor, achieved an MRR of 0.295793 only. But for the `kbqa` task, an F1-score of 0.5362 is achieved, which is well enough.
 
 The poor performance for `dbqa` might be due to our lacking experience in parameter tuning for LSTM. In our experiments, sometimes the loss goes to Nan and this might be implying a too large learning rate or improper optimizer. The performance is likely to be much better if we've trained LSTM well.
+
+=============== Update =================
+
+Uploaded file `nlpcc-iccpol-2016.kbqa.kb.mention2id` to [here](https://pan.baidu.com/s/1kUI1OHL).
